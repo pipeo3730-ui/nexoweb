@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "tipo": "Noticia",
+    "categoria": "Tecnología",
+    "titulo": "Nuevas herramientas digitales para mejorar la productividad",
+    "resumen": "Herramientas que facilitan la organización y el trabajo colaborativo.",
+    "contenido": "La transformación digital incorpora herramientas para organizar tareas, compartir información y mejorar la comunicación entre equipos.",
+    "fecha": "18 de septiembre de 2026",
+    "imagen": "images/tecnologia.svg"
+  },
+  {
+    "id": 2,
+    "tipo": "Servicio",
+    "categoria": "Educación",
+    "titulo": "Recursos gratuitos para fortalecer habilidades digitales",
+    "resumen": "Recursos para aprender programación, diseño y herramientas web.",
+    "contenido": "El aprendizaje continuo permite fortalecer conocimientos técnicos mediante documentación, ejercicios y proyectos prácticos.",
+    "fecha": "15 de septiembre de 2026",
+    "imagen": "images/educacion.svg"
+  },
+  {
+    "id": 3,
+    "tipo": "Noticia",
+    "categoria": "Innovación",
+    "titulo": "La innovación impulsa nuevas experiencias para usuarios",
+    "resumen": "Las aplicaciones web modernas buscan interfaces simples, rápidas y accesibles.",
+    "contenido": "Una buena experiencia combina arquitectura clara, contenidos comprensibles e interfaces que faciliten las tareas.",
+    "fecha": "12 de septiembre de 2026",
+    "imagen": "images/innovacion.svg"
+  },
+  {
+    "id": 4,
+    "tipo": "Servicio",
+    "categoria": "Diseño",
+    "titulo": "Diseño de interfaces centradas en las necesidades del usuario",
+    "resumen": "Elementos básicos para crear interfaces consistentes y fáciles de utilizar.",
+    "contenido": "El diseño considera jerarquía visual, tipografía, espaciado, contraste, navegación y adaptación a diferentes pantallas.",
+    "fecha": "10 de septiembre de 2026",
+    "imagen": "images/diseno.svg"
+  },
+  {
+    "id": 5,
+    "tipo": "Noticia",
+    "categoria": "Seguridad",
+    "titulo": "Buenas prácticas básicas para proteger información en línea",
+    "resumen": "Recomendaciones generales para mejorar la seguridad al utilizar servicios digitales.",
+    "contenido": "La seguridad digital incluye contraseñas robustas, software actualizado y verificación de sitios antes de ingresar datos.",
+    "fecha": "7 de septiembre de 2026",
+    "imagen": "images/seguridad.svg"
+  },
+  {
+    "id": 6,
+    "tipo": "Servicio",
+    "categoria": "Desarrollo",
+    "titulo": "Desarrollo web con tecnologías fundamentales",
+    "resumen": "HTML, CSS y JavaScript permiten construir interfaces web interactivas.",
+    "contenido": "HTML define la estructura, CSS controla la presentación y JavaScript agrega comportamiento. Separar responsabilidades facilita el mantenimiento.",
+    "fecha": "4 de septiembre de 2026",
+    "imagen": "images/desarrollo.svg"
+  }
+]

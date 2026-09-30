@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>NexoWeb | Inicio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav wrap">
+        <a class="logo" href="index.html">Nexo<span>Web</span></a>
+        <nav>
+          <a class="active" href="index.html">Inicio</a
+          ><a href="noticias.html">Noticias</a
+          ><a href="favoritos.html">Favoritos <b id="count">0</b></a
+          ><a href="contacto.html">Contacto</a>
+        </nav>
+        <button id="menu">☰</button>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div>
+            <small>INFORMACIÓN EN UN SOLO LUGAR</small>
+            <h1>Noticias y servicios para estar siempre al día</h1>
+            <p>
+              Consulta contenidos, guarda tus favoritos y utiliza el formulario
+              de contacto.
+            </p>
+            <a class="btn" href="noticias.html">Explorar contenido</a>
+          </div>
+          <div class="hero-box">
+            <strong>N</strong>
+            <h2>Contenido dinámico</h2>
+            <p>
+              Las tarjetas se cargan desde un archivo JSON mediante JavaScript.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section wrap">
+        <div class="heading">
+          <div>
+            <small>DESTACADOS</small>
+            <h2>Noticias y servicios</h2>
+          </div>
+          <a href="noticias.html">Ver todos →</a>
+        </div>
+        <div id="home" class="grid"></div>
+      </section>
+      <section class="soft">
+        <div class="wrap features">
+          <article>
+            <b>01</b>
+            <h3>Información organizada</h3>
+            <p>Contenido presentado de forma clara.</p>
+          </article>
+          <article>
+            <b>02</b>
+            <h3>Favoritos</h3>
+            <p>Guarda contenidos para consultarlos después.</p>
+          </article>
+          <article>
+            <b>03</b>
+            <h3>Contacto</h3>
+            <p>Formulario con validaciones en JavaScript.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer><div class="wrap">© 2026 NexoWeb · Proyecto académico</div></footer>
+    <script src="js/app.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>NexoWeb | Favoritos</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav wrap">
+        <a class="logo" href="index.html">Nexo<span>Web</span></a>
+        <nav>
+          <a href="index.html">Inicio</a><a href="noticias.html">Noticias</a
+          ><a class="active" href="favoritos.html"
+            >Favoritos <b id="count">0</b></a
+          ><a href="contacto.html">Contacto</a>
+        </nav>
+        <button id="menu">☰</button>
+      </div>
+    </header>
+    <main>
+      <section class="page">
+        <div class="wrap">
+          <small>TU SELECCIÓN</small>
+          <h1>Mis favoritos</h1>
+          <p>Contenidos guardados con localStorage.</p>
+        </div>
+      </section>
+      <section class="section wrap">
+        <div id="favorites" class="grid"></div>
+        <div id="no-fav" class="empty" hidden>
+          Aún no tienes favoritos. <a href="noticias.html">Ver contenidos</a>
+        </div>
+      </section>
+    </main>
+    <footer><div class="wrap">© 2026 NexoWeb · Proyecto académico</div></footer>
+    <script src="js/app.js"></script>
+    <script src="js/favoritos-page.js"></script>
+  </body>
+</html>

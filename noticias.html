@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>NexoWeb | Noticias</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav wrap">
+        <a class="logo" href="index.html">Nexo<span>Web</span></a>
+        <nav>
+          <a href="index.html">Inicio</a
+          ><a class="active" href="noticias.html">Noticias</a
+          ><a href="favoritos.html">Favoritos <b id="count">0</b></a
+          ><a href="contacto.html">Contacto</a>
+        </nav>
+        <button id="menu">☰</button>
+      </div>
+    </header>
+    <main>
+      <section class="page">
+        <div class="wrap">
+          <small>EXPLORAR</small>
+          <h1>Noticias y servicios</h1>
+          <p>Busca contenidos o filtra por categoría.</p>
+        </div>
+      </section>
+      <section class="section wrap">
+        <div class="tools">
+          <input id="search" placeholder="Buscar por título..." /><select
+            id="filter"
+          >
+            <option value="all">Todas las categorías</option>
+          </select>
+        </div>
+        <p id="info"></p>
+        <div id="grid" class="grid"></div>
+        <div id="empty" class="empty" hidden>No encontramos resultados.</div>
+      </section>
+    </main>
+    <footer><div class="wrap">© 2026 NexoWeb · Proyecto académico</div></footer>
+    <script src="js/app.js"></script>
+    <script src="js/listado.js"></script>
+  </body>
+</html>
